@@ -1,0 +1,204 @@
+
+@font-face {
+  font-family: 'Legends';
+  src: url('Legends.ttf');
+}
+
+@font-face {
+  font-family: 'agfb';
+  src: url('AGENCYB.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Menu */
+.nav {
+    width: 75%;
+    height: 65px;
+    position: relative;
+    line-height: 65px;
+    text-align: center;
+    background-color: #fa9746;
+    border-radius: 50px;
+    left: 12%;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #;
+    font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+    color: #00E676;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 32px;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 20px;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+
+/* Welcome */
+
+.welcome-area {
+  width: 100%;
+  height: 100vh;
+  min-height: 793px;
+  background-image: url('bg1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.welcome-area .header-text .center-text {
+  position: relative;
+  align-self: center;
+  margin-top: 20%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.welcome-area .header-text h1 {
+  font-family: Legends;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #191a20;
+}
+
+.welcome-area .header-text p {
+  font-family: agfb;
+  font-weight: 300;
+  font-size: 17px;
+  color: #000;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+
+/* Layanan */
+#layanan {
+  top:10%;
+  padding: 100px 0px;
+  position: relative;
+  z-index: 9;
+}
+
+.features-item {
+  border-radius: 5px;
+  padding: 60px 30px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.features-item h2 {
+  z-index: 9;
+  position: absolute;
+  top: 15px;
+  left: 45px;
+  font-size: 100px;
+  font-weight: 600;
+  color: #fdefe9;
+}
+
+.features-item img {
+  z-index: 10;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.features-item h4 {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #1e1e1e;
+  margin-bottom: 25px;
+}
+
+.judul {
+  font-family: Legends;
+}
+
+.features-item .main-button {
+  margin-top: 35px;
+  display: inline-block;
+}
+
+a.main-button-slider:hover {
+  background-color: #006666;
+}
+
+a.main-button {
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 15px 25px;
+  background-color: #ff6666;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a.main-button:hover {
+  background-color: #006666;
+}
+
+/* Kontak Menggunakan Bootstrap */
+#kontak {
+  top:10%;
+  padding: 100px 0px;
+  background-color: #fa9746;
+  position: relative;
+  z-index: 9;
+}

@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+
+  </head>
+    <body>
+      <!-- Menu -->
+      <nav class="nav">
+        <div class="container">
+            <div class="logo"">
+                <a href="#" style="font-family: Legends; color: #fff;">O-Course</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#layanan">Layanan</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="welcome-area" id="welcome">
+  		<div class="header-text">
+  			<div class="container">
+  				<div class="row">
+  					<div class="center-text col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  						<h1 class="judul-head">Welcome to O-Course</h1>
+  						<p>O-Course merupakan penyedia layanan yang bergerak di bidang pendidikan dengan menyediakan lebih dari 1000 materi pembelajaran yang bisa diakses kapan saja dan dimana saja.</p>
+  						<a href="#layanan" class="main-button">Info Lebih Lanjut</a>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+
+  	<!-- Layanan -->
+    <section class="section" id="layanan">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+  					<div class="features-item">
+  							<h1 class="judul">Terpercaya</h1>
+  							<p>O-Course memiliki lebih dari 2000 pengguna dari berbagai negara.</p>
+  							<a href="#kontak" class="main-button">
+  								Info Lebih Lanjut
+  							</a>
+  						</div>
+  					</div>
+  				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+  					<div class="features-item">
+  							<h1 class="judul">User Interface</h1>
+  							<p>O-Course memiliki tampilan yang sangat mudah dimengerti oleh siapapun.</p>
+  							<a href="#kontak" class="main-button">
+  								Info Lebih Lanjut
+  							</a>
+  					</div>
+  				</div>
+  				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+  					<div class="features-item">
+  							<h1 class="judul">Mudah</h1>
+  							<p>O-Course sangat mudah untuk dipahami oleh siapapun.</p>
+  							<a href="#kontak" class="main-button">
+  								Info Lebih Lanjut
+  							</a>
+  					</div>
+  				</div>
+  			</div>
+  	</section>
+
+    <!-- Kontak -->
+    <section class="section" id="kontak">
+      <div class="container">
+        <div class="row">
+          <h1 class="judul">Hubungi Kami !</h1>
+          <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                          <label for="name" class="">Nama</label>
+                          <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                          <label for="subject" class="">Subject</label>
+                          <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                          <label for="message">Pesan</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="text-center text-md-left">
+                <a href="javascript:;" onclick="result();" class="main-button">Kirim</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        function result(){
+          alert('Pesan berhasil dikirim !');
+        }
+      </script>
+
+    </body>
+</html>
